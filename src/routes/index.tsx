@@ -46,9 +46,7 @@ function Home() {
         </div>
         <div className="relative">
           <img src={img.s1Door} alt="S1 mounted below a lever handle, unlocked from a phone" className="aspect-[4/5] w-full rounded-sm object-cover" />
-          <div className="absolute -bottom-6 -left-6 hidden w-40 rounded-sm bg-card p-3 shadow-lg md:block">
-            <img src={img.s2Hero} alt="S2 product" className="object-contain" />
-          </div>
+          <img src={img.s2Hero} alt="S2 product" className="absolute -bottom-8 -left-10 hidden w-44 object-contain drop-shadow-2xl md:block" />
         </div>
       </section>
 
