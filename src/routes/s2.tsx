@@ -11,5 +11,5 @@ export const Route = createFileRoute("/s2")({
       { property: "og:description", content: "Direct-drive Euro cylinder replacement for hotels and high-end residential." },
     ],
   }),
-  component: () => <ProductPage p={products[1]} />,
+  component: () => <ProductPage p={products[1]!} />,
 });

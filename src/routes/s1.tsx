@@ -11,5 +11,5 @@ export const Route = createFileRoute("/s1")({
       { property: "og:description", content: "Keeps original keys, no drilling, installs in under 10 minutes." },
     ],
   }),
-  component: () => <ProductPage p={products[0]} />,
+  component: () => <ProductPage p={products[0]!} />,
 });
