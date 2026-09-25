@@ -44,10 +44,7 @@ function Home() {
             <a href="#contact" className="rounded-sm border border-foreground/20 px-6 py-3 hover:border-primary hover:text-primary">Request samples</a>
           </div>
         </div>
-        <div className="relative">
-          <img src={img.s1Door} alt="S1 mounted below a lever handle, unlocked from a phone" className="aspect-[4/5] w-full rounded-sm object-cover" />
-          <img src={img.s2Hero} alt="S2 product" className="absolute -bottom-8 -left-10 hidden w-44 object-contain drop-shadow-2xl md:block" />
-        </div>
+        <img src={img.s1Door} alt="S1 mounted below a lever handle, unlocked from a phone" className="aspect-[4/5] w-full rounded-sm object-cover" />
       </section>
 
       <section className="border-y border-border">
