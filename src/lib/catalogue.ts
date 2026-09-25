@@ -7,12 +7,13 @@ import s2Thumb from "@/assets/s2_thumb.jpg.asset.json";
 import s2Batt from "@/assets/s2_batt.jpg.asset.json";
 import s2Door from "@/assets/c01c_s2_v2_square.jpg.asset.json";
 import oak from "@/assets/a01_oak.jpg.asset.json";
+import swatch from "@/assets/oem_swatch.jpg.asset.json";
 import entry from "@/assets/a06_entry.jpg.asset.json";
 
 export const img = {
   s1Thumb: s1Thumb.url, s1Stand: s1Stand.url, s1Scale: s1Scale.url, s1Door: s1Door.url,
   s2Hero: s2Hero.url, s2Thumb: s2Thumb.url, s2Batt: s2Batt.url, s2Door: s2Door.url,
-  oak: oak.url, entry: entry.url,
+  oak: oak.url, swatch: swatch.url, entry: entry.url,
 };
 
 export const INQUIRY_EMAIL = "oem-inquiry@partner-network.com";

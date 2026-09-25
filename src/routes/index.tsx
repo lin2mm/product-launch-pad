@@ -131,6 +131,7 @@ function Home() {
           <Eyebrow>OEM customization</Eyebrow>
           <h2 className="mt-3 font-display text-4xl font-light">Your brand, your finish.</h2>
           <p className="mt-4 text-muted-foreground">All exterior faces are neutral and ready for laser engraving, custom anodizing and decorative panels. Custom RAL / Pantone matching on qualifying batches.</p>
+          <img src={img.swatch} alt="S1 shown in five OEM housing finishes" loading="lazy" className="mt-6 w-full rounded-sm bg-card object-contain p-4" />
           <div className="mt-6 flex flex-wrap gap-4">
             {finishes.map((f) => (
               <div key={f.name} className="flex items-center gap-2 text-sm">
