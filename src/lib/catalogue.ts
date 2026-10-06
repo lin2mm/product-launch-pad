@@ -1,19 +1,16 @@
-import s1Thumb from "@/assets/s1_thumb.jpg.asset.json";
-import s1Stand from "@/assets/s1_stand.jpg.asset.json";
-import s1Scale from "@/assets/p1_s1_mobile_scale_v2.png.asset.json";
-import s1Door from "@/assets/hero_door_hires.jpg.asset.json";
-import s2Hero from "@/assets/hero_s2_cutout.png.asset.json";
-import s2Thumb from "@/assets/s2_thumb.jpg.asset.json";
-import s2Batt from "@/assets/s2_batt.jpg.asset.json";
-import s2Door from "@/assets/c01c_s2_v2_square.jpg.asset.json";
-import oak from "@/assets/a01_oak.jpg.asset.json";
-import swatch from "@/assets/oem_swatch.jpg.asset.json";
-import entry from "@/assets/a06_entry.jpg.asset.json";
-
+// Images live in public/images/ so they deploy with the code on any host.
 export const img = {
-  s1Thumb: s1Thumb.url, s1Stand: s1Stand.url, s1Scale: s1Scale.url, s1Door: s1Door.url,
-  s2Hero: s2Hero.url, s2Thumb: s2Thumb.url, s2Batt: s2Batt.url, s2Door: s2Door.url,
-  oak: oak.url, swatch: swatch.url, entry: entry.url,
+  s1Thumb: "/images/s1_thumb.jpg",
+  s1Stand: "/images/s1_stand.jpg",
+  s1Scale: "/images/p1_s1_mobile_scale_v2.png",
+  s1Door: "/images/hero_door_hires.webp",
+  s2Hero: "/images/hero_s2_cutout.png",
+  s2Thumb: "/images/s2_thumb.jpg",
+  s2Batt: "/images/s2_batt.jpg",
+  s2Door: "/images/c01c_s2_v2_square.jpg",
+  oak: "/images/a01_oak.jpg",
+  swatch: "/images/oem_swatch.jpg",
+  entry: "/images/a06_entry.jpg",
 };
 
 export const INQUIRY_EMAIL = "oem-inquiry@partner-network.com";
