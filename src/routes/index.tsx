@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteShell, Eyebrow } from "@/components/Site";
-import { products, compare, finishes, img, INQUIRY_EMAIL } from "@/lib/catalogue";
+import { products, compare, finishes, img } from "@/lib/catalogue";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -154,8 +154,8 @@ function Home() {
               </div>
             ))}
           </div>
-          <a href={`mailto:${INQUIRY_EMAIL}?subject=OEM%20inquiry`} className="mt-12 inline-block rounded-sm bg-accent px-6 py-3 font-medium text-accent-foreground hover:opacity-90">
-            Email the OEM desk
+          <a href="#contact" className="mt-12 inline-block rounded-sm bg-accent px-6 py-3 font-medium text-accent-foreground hover:opacity-90">
+            Request product info
           </a>
         </div>
       </section>

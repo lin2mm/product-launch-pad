@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { Check } from "lucide-react";
 import { SiteShell, Eyebrow } from "@/components/Site";
-import { products, INQUIRY_EMAIL, type Product } from "@/lib/catalogue";
+import { products, type Product } from "@/lib/catalogue";
 
 export function ProductPage({ p }: { p: Product }) {
   const other = products.find((x) => x.slug !== p.slug)!;
@@ -22,8 +22,8 @@ export function ProductPage({ p }: { p: Product }) {
             <div><dt className="text-muted-foreground">Standard color</dt><dd className="mt-1 font-medium">{p.color}</dd></div>
             <div className="col-span-2"><dt className="text-muted-foreground">Ideal for</dt><dd className="mt-1 font-medium">{p.idealFor}</dd></div>
           </dl>
-          <a href={`mailto:${INQUIRY_EMAIL}?subject=${encodeURIComponent(p.code + " evaluation samples")}`} className="mt-8 inline-block rounded-sm bg-primary px-6 py-3 text-primary-foreground hover:opacity-90">
-            Request {p.code} samples
+          <a href="/#contact" className="mt-8 inline-block rounded-sm bg-primary px-6 py-3 text-primary-foreground hover:opacity-90">
+            Request product info
           </a>
         </div>
         <div className="rounded-sm bg-card p-8">

@@ -1,6 +1,5 @@
 import { Link } from "@tanstack/react-router";
 import type { ReactNode } from "react";
-import { INQUIRY_EMAIL } from "@/lib/catalogue";
 
 export function SiteShell({ children }: { children: ReactNode }) {
   return (
@@ -26,7 +25,7 @@ export function SiteShell({ children }: { children: ReactNode }) {
             <p className="mt-2 opacity-60">Neutral B2B edition for brand partners, architects and distributors. Performance values reflect preliminary engineering benchmarks.</p>
           </div>
           <div className="sm:text-right">
-            <a href={`mailto:${INQUIRY_EMAIL}`} className="underline underline-offset-4">{INQUIRY_EMAIL}</a>
+            <a href="/#contact" className="underline underline-offset-4">Enquiry via the contact form</a>
             <p className="mt-2 font-mono text-xs opacity-50">DRAFT v0.4 · FOR OEM REVIEW</p>
           </div>
         </div>
